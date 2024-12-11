@@ -23,10 +23,13 @@ venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 
 ### Configure the Environment Variables
-OPENAI_API_KEY=your_openai_api_key
-SMTP_SERVER=smtp.example.com
-EMAIL_USERNAME=your_email@example.com
-EMAIL_PASSWORD=your_email_password
+GPT_API_KEY = "api key here"
+
+CLIENT_ID = "client id here"
+CLIENT_SECRET = "client secret key here"
+TENANT_ID = "tenant id here"
+
+USER_EMAIL = "user email here"
 
 ### Run the Application
 uvicorn main:app --reload

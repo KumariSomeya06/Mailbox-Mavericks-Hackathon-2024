@@ -1,3 +1,13 @@
 .env
 /venv/
 extracode.py
+
+/app/__pycache__/
+/app/genEmail/__pycache__/
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
